@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82B30A022347888000AE36E /* ConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B309F22347888000AE36E /* ConverterTableViewCell.swift */; };
+		C82B30A2223479FF000AE36E /* ConverterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B30A1223479FF000AE36E /* ConverterTableViewController.swift */; };
 		F4E1BC7A21F290B4006F0C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1BC7921F290B4006F0C80 /* AppDelegate.swift */; };
 		F4E1BC7C21F290B4006F0C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1BC7B21F290B4006F0C80 /* ViewController.swift */; };
 		F4E1BC7F21F290B4006F0C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E1BC7D21F290B4006F0C80 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C82B309F22347888000AE36E /* ConverterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTableViewCell.swift; sourceTree = "<group>"; };
+		C82B30A1223479FF000AE36E /* ConverterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTableViewController.swift; sourceTree = "<group>"; };
 		F4E1BC7621F290B4006F0C80 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E1BC7921F290B4006F0C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E1BC7B21F290B4006F0C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				F4E1BC7921F290B4006F0C80 /* AppDelegate.swift */,
 				F4E1BC7B21F290B4006F0C80 /* ViewController.swift */,
 				F4E1BC7D21F290B4006F0C80 /* Main.storyboard */,
+				C82B30A1223479FF000AE36E /* ConverterTableViewController.swift */,
+				C82B309F22347888000AE36E /* ConverterTableViewCell.swift */,
 				F4E1BC8021F290B6006F0C80 /* Assets.xcassets */,
 				F4E1BC8221F290B6006F0C80 /* LaunchScreen.storyboard */,
 				F4E1BC8521F290B6006F0C80 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82B30A2223479FF000AE36E /* ConverterTableViewController.swift in Sources */,
 				F4E1BC7C21F290B4006F0C80 /* ViewController.swift in Sources */,
+				C82B30A022347888000AE36E /* ConverterTableViewCell.swift in Sources */,
 				F4E1BC7A21F290B4006F0C80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
